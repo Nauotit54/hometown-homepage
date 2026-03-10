@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    background-color: #1D3557;
+    padding: 4px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    background-color: #457B9D;
+    padding: 6px 28px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+h3 {
+    color: #1D3557;
+    font-size: 24px;
+    margin-top: 38px;
+}
+
+h4 {
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    color: #1D3557;
+    font-size: 16px;
+}
+
+#hero {
+    background: url("./images/mairie.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+
+}
+
+#activities {
+    background: #F1FAEE;
+}
+
+#activities-details {
+    margin-top: 50px;
+    margin-bottom: 38px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.activity {
+    width: 200px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#guide {
+    margin: 50px auto;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    box-shadow: #1D3557 0 6px;
+}
+
+#guide_img {
+    width: 180px;
+    border-radius: 10px;
+    margin: 22px auto;
+    margin-right: 12px;
+}
+
+.italic {
+    font-style: italic;
+}
